@@ -66,6 +66,8 @@ print(d)
 #if __name__ == '__main__':
 
 
+
+
 if __name__ == '__main__':
      print(type("xxxxxx"))
      print(type(12233))
