@@ -58,6 +58,7 @@ for i in List:
 """enumerate iterator value
 
 """
+
 for index,value in enumerate(List):
     print("List[{i}]={va}".format(i=index,va=value))
 

@@ -53,6 +53,11 @@ def filelog():
 
 
 
+
+
+
+
+
 if __name__ == '__main__':
     #filelog()
 
@@ -67,4 +72,11 @@ if __name__ == '__main__':
 
 
     #print(dir)
-    print(os.path)
+    #print(os.path())
+    str=os.path.abspath(".")
+    print(str)
+    #print(str)
+    file="checklog.log"
+    with open(file,"r") as f:
+        l=f.readline()
+        print(l)
